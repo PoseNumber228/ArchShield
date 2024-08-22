@@ -196,3 +196,4 @@ class ConnectionDataBase:
 <u>Important!</u>
 
 <u>The program administrator is created when creating the database and nothing else</u>
+<u>The password for the virus archive is 'infected'</u>
