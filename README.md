@@ -88,7 +88,7 @@ any task.
 [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
 
 ## PostgreSQL
-![PostgreSQL](![PostgreSQL](https://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png))
+![PostgreSQL](https://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png)
 PostgreSQL, often simply referred to as Postgres, is a powerful, open-source
 object-relational database management system (ORDBMS) with a strong reputation
 for reliability, feature robustness, and performance.
