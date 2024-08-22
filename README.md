@@ -202,3 +202,5 @@ class ConnectionDataBase:
 |id|file_path|virus_name|virus_hash|virus_owner|
 |:-:|:-:|:-:|:-:|:-:|
 |1|C:\Users\ASUS\Downloads\I'm a VIRUS.xls|I'm a VIRUS.xls|"a3ad446626bebe8f644aecc09a0d37995db5519c579d3930ac045a5a45c05692"|AleksandrBelow|
+
+# GOOD LUCK :D
