@@ -50,7 +50,7 @@ are just some of the features of MalwareBazaar:
 - Search for samples by malware family name, fuzzy hashing (like TLSH, imphash,
   etc) and tags
 
-## Python
+![Python](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdQLddjVDPCJ-WwcLBSvEYBE_WzhyZ7_U9Tg&s)
 
 ##### Description
 
@@ -87,7 +87,6 @@ any task.
 [PyPI - Python Package Index](https://pypi.org/) \
 [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
 
-## PostgreSQL
 ![PostgreSQL](https://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png)
 
 PostgreSQL, often simply referred to as Postgres, is a powerful, open-source
