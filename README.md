@@ -18,7 +18,7 @@ ArchShield will offer to delete the infected files.
 
 ## Tools
 
-#### MalwareBazaar
+## MalwareBazaar
 
 [MalvareBazaar](https://bazaar.abuse.ch/ "Click here to visit MalvareBazaar 
 website.") \
@@ -50,7 +50,7 @@ are just some of the features of MalwareBazaar:
 - Search for samples by malware family name, fuzzy hashing (like TLSH, imphash,
   etc) and tags
 
-## Python
+![Python](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdQLddjVDPCJ-WwcLBSvEYBE_WzhyZ7_U9Tg&s)
 
 ##### Description
 
@@ -87,7 +87,7 @@ any task.
 [PyPI - Python Package Index](https://pypi.org/) \
 [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
 
-## PostgreSQL
+![PostgreSQL](https://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png)
 
 PostgreSQL, often simply referred to as Postgres, is a powerful, open-source
 object-relational database management system (ORDBMS) with a strong reputation
@@ -195,4 +195,12 @@ class ConnectionDataBase:
 ```
 <u>Important!</u>
 
-<u>The program administrator is created when creating the database and nothing else</u>
+<u>The program administrator is created when creating the database and nothing else</u> \
+<u>The password for the virus archive is 'infected'</u>
+
+## Program results
+|id|file_path|virus_name|virus_hash|virus_owner|
+|:-:|:-:|:-:|:-:|:-:|
+|1|C:\Users\ASUS\Downloads\I'm a VIRUS.xls|I'm a VIRUS.xls|"a3ad446626bebe8f644aecc09a0d37995db5519c579d3930ac045a5a45c05692"|AleksandrBelow|
+
+###### #SAVEYOURPC #ARCHSHIELD #PythonTheBest

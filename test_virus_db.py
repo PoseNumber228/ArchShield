@@ -4,7 +4,9 @@ from check_files import VirusFile
 
 
 class TestVirusFile(unittest.TestCase):
-    """"""
+    """
+    Класс Проверки вычисления хеша.
+    """
 
     def test_calculate_file_hash(self):
         test_file_path = Path("test_file.txt")  # Указываем путь к  тестовому
