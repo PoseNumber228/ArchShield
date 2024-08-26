@@ -32,7 +32,12 @@ class User:
                         registration_check_password = input(
                             "Введите Ваш пароль. "
                         )
+<<<<<<< HEAD
                         if add_info.verify_admin(login, registration_check_password):
+=======
+                        if add_info.verify_admin(login,
+                                                 registration_check_password):
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                             print(
                                 f"Ваш пароль подтвежден. \n"
                                 f"Добро пожаловать, {login}"
@@ -65,6 +70,7 @@ class User:
                                     )
                                     if user_virus_list == 'exit':
                                         print(
+<<<<<<< HEAD
                                             "Вы вышли из программы. До свидания!"
                                         )
                                         exit()
@@ -73,24 +79,52 @@ class User:
                                 elif admin_choice == "2":
                                     to_exit = input(
                                         "Добавление нового вируса в базу данных. "
+=======
+                                            "Вы вышли из программы. До "
+                                            "свидания!"
+                                        )
+                                        exit()
+                                    else:
+                                        db_operation.show_virus_list(
+                                            user_virus_list)
+                                elif admin_choice == "2":
+                                    to_exit = input(
+                                        "Добавление нового вируса в базу "
+                                        "данных. "
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                         "Нажмите Enter.\n"
                                         "Введите 'exit' для выхода: "
                                     )
                                     if to_exit == 'exit':
                                         print(
+<<<<<<< HEAD
                                             "Вы вышли из программы. До свидания!"
+=======
+                                            "Вы вышли из программы. До "
+                                            "свидания!"
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                         )
                                         exit()
                                     else:
                                         db_operation.add_virus_info()
                                 elif admin_choice == "3":
                                     user_to_delete = input(
+<<<<<<< HEAD
                                         "Введите логин пользователя для удаления: \n"
+=======
+                                        "Введите логин пользователя для "
+                                        "удаления: \n"
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                         "Введите 'exit' для выхода: "
                                     )
                                     if user_to_delete == 'exit':
                                         print(
+<<<<<<< HEAD
                                             "Вы вышли из программы. До свидания!"
+=======
+                                            "Вы вышли из программы. До "
+                                            "свидания!"
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                         )
                                         exit()
                                     else:
@@ -110,7 +144,12 @@ class User:
                         else:
                             print(
                                 "Пароль неверный, повторите пароль еще раз!\n"
+<<<<<<< HEAD
                                 "Или выйдите из программы с помощью команды 'exit'. "
+=======
+                                "Или выйдите из программы с помощью команды "
+                                "'exit'. "
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                             )
 
                 elif login.lower() == 'exit':
@@ -132,8 +171,15 @@ class User:
                                 registration_check_password = input(
                                     "Повторите пароль. "
                                 )
+<<<<<<< HEAD
                                 if registration_password == registration_check_password:
                                     add_info.register_user(login, registration_password)
+=======
+                                if registration_password == \
+                                        registration_check_password:
+                                    add_info.register_user(login,
+                                                           registration_password)
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                     print(
                                         f"Ваш пароль подтвежден. \n"
                                         f"Добро пожаловать, {login}"
@@ -143,7 +189,12 @@ class User:
                                     return login
                                 else:
                                     print(
+<<<<<<< HEAD
                                         "Ваш пароль не соответствует введенному ранее. "
+=======
+                                        "Ваш пароль не соответствует "
+                                        "введенному ранее. "
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                                         "Повторите попытку. "
                                     )
                         elif registration_question == "n":
@@ -157,7 +208,12 @@ class User:
                         registration_check_password = input(
                             "Введите Ваш пароль. "
                         )
+<<<<<<< HEAD
                         if add_info.verify_user(login, registration_check_password):
+=======
+                        if add_info.verify_user(login,
+                                                registration_check_password):
+>>>>>>> c694d89d5e5d950af0fb438af2e2db221d0b4ffa
                             print(
                                 f"Ваш пароль подтвежден. \n"
                                 f"Добро пожаловать, {login}"
