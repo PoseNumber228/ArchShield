@@ -7,6 +7,7 @@ class ConnectionDataBase:
     """
     Класс подключения к локальной БД антивируса ArchShield.
     """
+
     def __init__(self):
         self.connection = self.get_connection()
 
@@ -273,8 +274,8 @@ class AddInfoDB:
                     return False
                 return bcrypt.checkpw(
                     admin_password.encode(), used_password[0].encode()
-                )  # Раскодируем введенны в БД строку обратно в байты, отнимая от
-                # нее соль преобразуя в байты и сравниваем результы.
+                )  # Раскодируем введенны в БД строку обратно в байты,
+                # отнимая от нее соль преобразуя в байты и сравниваем результы.
 
         except Exception as _ex:
             print("[INFO] Ошибка работы с PostgreSQL", _ex)  # Выводим статус
