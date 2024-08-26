@@ -4,9 +4,13 @@ from check_files import VirusFile
 
 
 class TestVirusFile(unittest.TestCase):
+<<<<<<< HEAD
     """
     Класс Проверки вычисления хеша.
     """
+=======
+    """"""
+>>>>>>> ArchShieldpreBeta
 
     def test_calculate_file_hash(self):
         test_file_path = Path("test_file.txt")  # Указываем путь к  тестовому
