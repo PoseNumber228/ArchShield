@@ -117,10 +117,10 @@ class VirusFile:
         об ошибке и передаёт задачу сверяхть хеш-файлы в локальной БД.
         """
         if self.api_available:
-            base_url = "https://mb-api.abuse.ch/api/v1/sdad"  # URL БД с
+            base_url = "https://mb-api.abuse.ch/api/v1/"  # URL БД с
             # вирусными сигнатурами MalwareBazaar.
             headers = {
-                'API-KEY': 'insert_your_API_key'
+                'API-KEY': '1e022a8640318875e5d116a3261cfca5'
             }  # Личный API-LEY для подключения к БД с
             # вирусными сигнатурами MalwareBazaar.
             data = {
@@ -185,8 +185,8 @@ class VirusFile:
                 # Данный цикл проверяет, не является ли строка пустой.
                 hash_file.update(chunk)
 
-        return hash_file.hexdigest()  # Возращает хеш файла в шестнадцатеричном
-        # формте.
+        return hash_file.hexdigest()  # Возращает хеш файла в
+        # шестнадцатеричном формате.
 
     @staticmethod
     def delete_virus(file_path):

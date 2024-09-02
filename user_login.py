@@ -150,7 +150,8 @@ class User:
                                 if registration_password == \
                                         registration_check_password:
                                     add_info.register_user(login,
-                                                           registration_password)
+                                                           registration_password
+                                                           )
                                     print(
                                         f"Ваш пароль подтвежден. \n"
                                         f"Добро пожаловать, {login}"

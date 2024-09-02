@@ -2,7 +2,7 @@ from task_exceptions import BadNameError, BadPasswordError
 
 
 class ValueException:
-    """Создаём класс Value."""
+    """Создаём класс ValueException."""
 
     @staticmethod
     def exc_name(login):
